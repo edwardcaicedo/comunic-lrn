@@ -1,0 +1,203 @@
+/*globales*/
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  html {
+  box-sizing: border-box;
+  }
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'BIZ UDGothic', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/*header*/
+
+.contenedor-heade {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.header {
+  background-image: url(../img/web.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  margin: -10px;
+  position: fixed;
+  background-color: #fff;
+  
+}
+
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  color: rgb(44, 44, 212);
+}
+
+.nav:hover a {
+  background-color: rgb(44, 44, 212);
+  color: white;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.seccio-hea h1 {
+  color:#fff;
+  font-weight: 900;
+}
+
+
+.header-seccion {
+  margin-top: 200px;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  color: white;
+  font-weight: 900px;
+  padding: 10px;
+}
+
+.parra-hea {
+  width: 60%;
+}
+
+/*video*/
+
+.seccion-video {
+  width: 100%;
+  height: 500px;
+  margin-top: 100px;
+  
+}
+
+.seccion-video h2 {
+  text-align: center;
+  color: rgb(44, 44, 212);
+}
+
+
+.video iframe {
+  
+  width: 100%;
+  height: 400px;
+}
+
+/*Historia-guerra*/
+
+.historia-blog {
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+  border-radius: 30px;
+  color: white;
+}
+.blog-historia h2{
+ text-align: center;
+ padding: 10px;
+ text-transform: uppercase;
+ margin-top: 20px;
+ 
+}
+
+
+.historia-blog p {
+  text-align: justify;
+  width: 70%;
+  
+}
+
+.histo-disp {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.img2{
+  width: 80%;
+}
+
+
+/*Blog contenido*/
+
+.blog-contenedor {
+  width: 100%;
+  max-width: 1000px;
+
+  
+  margin: 0 auto;
+  
+}
+
+.conte-blogs {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 30px;
+  
+}
+
+.blog-contenedor h2 {
+  text-align: center;
+  color:rgb(44, 44, 212);
+  text-transform: capitalize;
+}
+
+.blogs {
+  width: 48%;
+  margin-top: 10px;
+  border-top:  10px double rgb(44, 44, 212);
+  padding: 20px;
+  height: auto;
+}
+
+.blogs h3 {
+  text-transform: capitalize;
+  color: rgb(44, 44, 212);
+}
+
+.fb-comment {
+  width: 20%;
+}
+
+
+/*footer*/
+
+.footer {
+  margin-top: 20px;
+  background-color: rgb(44, 44, 212);
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: end;
+}
+
+
+
